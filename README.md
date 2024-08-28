@@ -28,7 +28,13 @@
 4) php artisan serve --port=<YOUR_PREFERED_PORT> Eg: php artisan serve --port=8001
 ```
 
-# How to do Unit Testing
+## How to run Queue worker
+```Shell
+For development run: "php artisan queue:work"
+For Deployment/production: Check https://laravel.com/docs/11.x/queues to install and configure supervisor
+```
+
+## How to run Unit Testing
 ```Shell
 php artisan test
 ```
